@@ -1,4 +1,5 @@
-import {defineConfig, type Plugin, type PluginOption} from 'vite'
+import type {Plugin, PluginOption} from 'vite'
+import {defineConfig} from 'vitest/config'
 import {sentryVitePlugin} from '@sentry/vite-plugin'
 
 // Resolve an entry HTML relative to this config (project root), without needing
