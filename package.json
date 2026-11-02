@@ -22,17 +22,17 @@
     "deploy": "npm run build && wrangler deploy"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.15",
+    "@biomejs/biome": "^2.6.3",
     "@sentry/vite-plugin": "^5.4.1",
-    "playwright": "^1.64.0",
+    "playwright": "^1.64.1",
     "sharp": "^0.35.5",
     "typescript": "^5.9.3",
     "vite": "^7.3.7",
     "vitest": "^4.1.12",
-    "wrangler": "^4.149.0"
+    "wrangler": "^4.153.0"
   },
   "dependencies": {
-    "@preact/signals": "^2.11.3",
+    "@preact/signals": "^2.11.4",
     "@sentry/browser": "^10.76.2",
     "@sentry/cloudflare": "^10.76.2",
     "preact": "^10.29.2",
